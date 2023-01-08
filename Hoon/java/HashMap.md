@@ -26,6 +26,12 @@ HashMap은
  
  메모리의 이슈인 것 같다.
  
+  +++ 🙇‍♂️ 수정 -> 메모리를 조금 더 쓰는 대신에 효율적으로 성능을 향상시키기 위함이다.
+  		 Tree는 List보다 포인터를 많이 써서 메모리가 많이 쓰이지만 탐색 속도는 더 빠르다. 탐색이 주목적이기에 Tree를 사용함. 
+		 
+		 
+		참고용 Tree vs List -> https://www.baeldung.com/cs/binary-trees-vs-linked-lists-vs-hash-tables
+ 
  TREEIFY_THRESHOLD 즉, 트리로 변하게 되는 임계값이 정해져 있는데
  >The bin count threshold for using a tree rather than list for a bin. Bins are converted to trees when adding an element to a bin with at least this many nodes. The value must be greater than 2 and should be at least 8 to mesh with assumptions in tree removal about conversion back to plain bins upon shrinkage.
 _ bin에 대한 목록이 아닌 트리를 사용하기 위한 bin 카운트 임계값입니다. 최소 이 개수의 노드가 있는 저장소에 요소를 추가하면 저장소가 트리로 변환됩니다. 값은 2보다 커야 하며 축소 시 일반 저장소로 다시 변환하는 것에 대한 트리 제거의 가정과 맞물리려면 8 이상이어야 합니다._
