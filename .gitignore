@@ -1,0 +1,46 @@
+# 디폴트 무시된 파일
+/shelf/
+/.idea/workspace.xml
+# 데이터 소스의 로컬 스토리지가 파일을 무시했습니다
+/dataSources/
+/dataSources.local.xml
+# 에디터 기반 HTTP 클라이언트 요청
+/httpRequests/
+HELP.md
+.gradle
+build/
+
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
